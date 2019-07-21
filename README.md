@@ -11,4 +11,7 @@ Uwimana Rachel
 ### Setup instructions
 
 Input your date, month and year of birth each in their respective boxes.
+If you get a pop that says invalid input that means your day, month or year does not exist.
+Choose your gender because that will help you to know your Akan name. 
+Read in the decscription part the meaning of Akan name. 
 
