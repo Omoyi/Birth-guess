@@ -15,3 +15,10 @@ If you get a pop that says invalid input that means your day, month or year does
 Choose your gender because that will help you to know your Akan name. 
 Read in the decscription part the meaning of Akan name. 
 
+### Technologies used
+ 
+ Bootstrap, html, css and javascript.
+
+### Contact information
+
+Email:  urakhel7@gmail.com
