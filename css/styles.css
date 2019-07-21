@@ -3,6 +3,7 @@ body {
     transition: background-color .5s;
     background-image: url(https://stmed.net/sites/default/files/gold-lights-wallpapers-25225-8658004.jpg);
     background-repeat: no-repeat;
+    
 }
 .sidenav {
     height: 100%;
@@ -44,9 +45,8 @@ body {
     transition: margin-left .5s;
     padding: 16px;
 }
-.row .card {
-   background-color: #111;
-   opacity: 0.6;
+.row {
+   color: #111;
    font-size: 25px;
-   color: #f1f1f1;
+   background-color: white;
 }
