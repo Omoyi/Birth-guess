@@ -23,7 +23,6 @@ body {
     color: #dacb99;
     display: block;
     transition: 0.3s;
-    color: ;
 }
   
 .sidenav a:hover {
@@ -45,6 +44,9 @@ body {
     transition: margin-left .5s;
     padding: 16px;
 }
-.row {
+.row .card {
+   background-color: #111;
+   opacity: 0.6;
+   font-size: 25px;
    color: #f1f1f1;
 }
