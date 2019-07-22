@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
@@ -117,7 +116,7 @@
             </tbody>
           </table><br><br> 
           <h1 style="text-align: center; color: rgb(240, 80, 154);">FEMALE</h1><br><br>
-          <table class="table" style="background-image: url(https://cdn.wallpapersafari.com/23/98/GwOW7o.jpg); border-bottom-left-radius: 20%;">
+          <table class="table" style="background-image: url(https://ak6.picdn.net/shutterstock/videos/10240856/thumb/1.jpg); border-bottom-left-radius: 20%;">
             <thead style="color: rgb(133, 1, 63);">
               <tr>
                 <th style="font-size: 20px;">Day Week</th>
@@ -127,31 +126,31 @@
             <tbody>
               <tr>
                 <td>Monday</td>
-                <td>Kwadwo</td>
+                <td>Adwoa</td>
               </tr>      
               <tr class="danger">
                 <td>Tuesday</td>
-                <td>Kwabena</td>
+                <td>Abenaa</td>
               </tr>
               <tr>
                 <td>Wednesday</td>
-                <td>Kwaku</td>
+                <td>Akua</td>
               </tr>
               <tr class="danger">
                 <td>Thursday</td>
-                <td>Yaw</td>
+                <td>Yaa</td>
               </tr>
               <tr>
                 <td>Friday</td>
-                <td>Kofi</td>
+                <td>Afua</td>
               </tr>
               <tr class="danger">
                 <td>Saturday</td>
-                <td>Kwame</td>
+                <td>Ama</td>
               </tr>
               <tr>
                 <td>Sunday</td>
-                <td>Kwasi</td>
+                <td>Akosua</td>
               </tr>
             </tbody>
           </table>
@@ -160,22 +159,22 @@
     </div>
       <div class="container-fluid">
         <div id="c"><br><br>
-          <form>
-            <h4>Choose your gender below</h4><br>
-            <label class="radio-inline" style="font-size: 16px;">
-            <input type="radio" name="optradio" checked>Male
+          
+            <h4 style="font-size: 25px;">Choose your gender below</h4><br>
+            <label class="radio-inline" style="font-size: 20px;">
+              <input type="radio" name="optradio" id="type" checked>Male
             </label><br><br>
-            <label class="radio-inline" style="font-size: 16px;">
-            <input type="radio" name="optradio">Female
-            </label><br><br>
-            <label class="control-label col-sm-2" style="font-size: 20px;">Day</label>
-            <input type="day" class="form-control" id="dd" placeholder="Enter the day" name="day" style="padding: 29px;" required><br>
-            <label class="control-label col-sm-2" style="font-size: 20px;">Month</label>          
-            <input type="month" class="form-control" id="mm" placeholder="Enter month" name="month" style="padding: 29px;" required><br>
-            <label class="control-label col-sm-2" style="font-size: 20px;">Year</label>         
-            <input type="year" class="form-control" id="yy" placeholder="Enter the year" name="year" style="padding: 29px;" required><br>
-            <button type="submit" style="font-size: 20px; padding: 18px;" class="btn btn-default">Submit</button>
-          </form><br>
+            <label class="radio-inline" style="font-size: 20px;">
+              <input type="radio" name="optradio">Female
+            </label><br><br><br>
+            <p style="font-size: 29px;">Day</p><br>
+            <input type="number" class="form-control" id="dd" placeholder="Enter the day" name="day" style="padding: 29px; width:70%;" required><br>
+            <p style="font-size: 29px;">Month</p><br>         
+            <input type="number" class="form-control" id="mm" placeholder="Enter month" name="month" style="padding: 29px; width:70%;" required><br>
+            <p style="font-size: 29px;">Year</p>         
+            <input type="number" class="form-control" id="yy" placeholder="Enter the year" name="year" style="padding: 29px; width:70%;" required><br>
+            <button type="submit" id="dis" style="font-size: 20px; padding: 18px;" class="btn btn-default" onClick="myFunct()">Submit</button><br><br><br><br><br>
+            <p id="get"></p><br><br>
         </div>
       </div>
     <script src="javascript.js"></script>

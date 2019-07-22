@@ -24,24 +24,24 @@ if(day<=0 || day>=32 || month<=0 || month>=13 || month==2 && day>29 || year<=0){
 }
 
 if(type=="male" && output==1){
-   document.getElementById("get").innerHTML = ("You were born on a Monday and your Akan name is 'KWADWO'. Monday born are  "); 
+   document.getElementById("get").innerHTML = ("You were born on a Monday and your Akan name is KWADWO. 'Monday's child is fair of face,'"); 
 }
 if(type=="male" && output==2){
-    document.getElementById("get").innerHTML = ("You were born on a 'Tuesday' and your Akan name is 'KWABENA'")
+    document.getElementById("get").innerHTML = ("You were born on a 'Tuesday' and your Akan name is KWABENA. 'Tuesday's child is full of grace,'")
 }
 if(type=="male" && output==3){
-    document.getElementById("get").innerHTML = ("You were born on a 'Wednesday' and your Akan name is 'KWAKU'")
+    document.getElementById("get").innerHTML = ("You were born on a 'Wednesday' and your Akan name is KWAKU. 'Wednesday's child is full of woe,'")
 }
 if(type=="male" && output==4){
-    document.getElementById("get").innerHTML = ("You were born on a 'Thursday' and your Akan name is 'YAW'")
+    document.getElementById("get").innerHTML = ("You were born on a 'Thursday' and your Akan name is YAW. ''")
 }
 if(type=="male" && output==5){
-    document.getElementById("get").innerHTML = ("You were born on a 'Friday' and your Akan name is 'KOFI'")
+    document.getElementById("get").innerHTML = ("You were born on a 'Friday' and your Akan name is KOFI. ''")
 }
 if(type=="male" && output==6){
-    document.getElementById("get").innerHTML = ("You were born on a 'Saturday' and your Akan name is 'KWAME'")
+    document.getElementById("get").innerHTML = ("You were born on a 'Saturday' and your Akan name is KWAME. ''")
 }
 if(type=="male" && output==7){
-    document.getElementById("get").innerHTML = ("You were born on a 'Sunday' and your Akan name is 'KWASI'")
+    document.getElementById("get").innerHTML = ("You were born on a 'Sunday' and your Akan name is KWASI. ''")
 }
 }
