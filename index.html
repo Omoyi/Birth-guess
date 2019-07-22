@@ -15,7 +15,7 @@
       <a href="#a">Home</a>
       <a href="#b">Description</a>
       <a href="#c">Calendar</a>
-      <a href="#d">Start</a>
+      <a href="#d">End</a>
     </div>
     <div id="done">
       <span style="font-size:30px; color:floralwhite; padding: 16px; cursor:pointer" onclick="openNav()">&#9776; open</span>
@@ -77,8 +77,8 @@
           </div>  
         </div> 
         <div>
-          <h1 style="text-align: center; color:navy; border-top-right-radius: 10%;">MALE</h1><br><br>
-          <table class="table">
+          <h1 style="text-align: center; color:navy;">MALE</h1><br><br>
+          <table class="table" style="border-top-right-radius: 20%;" >
             <thead style="color: rgb(26, 77, 160);">
               <tr>
                 <th style="font-size: 20px;">Day Week</th>
@@ -117,7 +117,7 @@
             </tbody>
           </table><br><br> 
           <h1 style="text-align: center; color: rgb(240, 80, 154);">FEMALE</h1><br><br>
-          <table class="table" style="background-image: url(https://cdn.wallpapersafari.com/23/98/GwOW7o.jpg); border-bottom-left-radius: 10%;">
+          <table class="table" style="background-image: url(https://cdn.wallpapersafari.com/23/98/GwOW7o.jpg); border-bottom-left-radius: 20%;">
             <thead style="color: rgb(133, 1, 63);">
               <tr>
                 <th style="font-size: 20px;">Day Week</th>
@@ -157,6 +157,43 @@
           </table>
         </div>
       </div>
-    </div>    
+    </div>
+      <div class="container-fluid">
+        <div id="c"><br><br>
+          <form>
+            <h4>Choose your gender below</h4><br>
+            <label class="radio-inline" style="font-size: 16px;">
+              <input type="radio" name="optradio" checked>Male
+            </label><br><br>
+            <label class="radio-inline" style="font-size: 16px;">
+             <input type="radio" name="optradio">Female
+            </label><br><br>
+            <div class="form-group">
+              <label class="control-label col-sm-2" style="font-size: 16px;">Day</label>
+              <div class="col-sm-12">
+                <input type="day" class="form-control" id="dd" placeholder="Enter the day" name="day">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" style="font-size: 16px;">Month</label>
+              <div class="col-sm-12">          
+                <input type="month" class="form-control" id="mm" placeholder="Enter month" name="month">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" style="font-size: 16px;">Year</label>
+              <div class="col-sm-12">          
+                <input type="year" class="form-control" id="yy" placeholder="Enter the year" name="year">
+              </div>
+            </div>
+            <div class="form-group">        
+              <div class=" col-sm-12"><br>
+                <button type="submit" style="font-size: 16px;" class="btn btn-default">Submit</button>
+              </div>
+            </div>
+          </form><br>
+        </div>
+      </div>
+    <script src="javascript.js"></script>
   </body>
 </html>

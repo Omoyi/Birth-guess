@@ -48,8 +48,14 @@ body {
 .row {
    color: #111;
    font-size: 25px;
-   background-color: white;
+   background-color: #dacb99;
+   border-top-style: ridge;
+   border-radius: 18px;
 }
 .table {
-    background-image: url(http://www.toca-ch.com/data/walls/33/22280887.jpg); 
+    background-image: url(http://www.toca-ch.com/data/walls/33/22280887.jpg);
+}
+#c {
+    background-image: url(https://ak6.picdn.net/shutterstock/videos/10240856/thumb/1.jpg);
+    padding-left: 9%;
 }
