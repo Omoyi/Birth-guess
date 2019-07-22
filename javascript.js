@@ -24,46 +24,46 @@ if(day<=0 || day>=32 || month<=0 || month>=13 || month==2 && day>29 || year<=0){
 }
 
 if(type=="male" && output==1){
-   document.getElementById("get").innerHTML = ("You were born on a Monday and your Akan name is ADWOA. 'Monday's child is fair of face,'"); 
+   document.getElementById("get").innerHTML = ("You were born on a Monday and your Akan name is KWADWO. 'Monday's child is fair of face,'"); 
 }
 if(type=="male" && output==2){
-    document.getElementById("get").innerHTML = ("You were born on a 'Tuesday' and your Akan name is ABENAA. 'Tuesday's child is full of grace,'")
+    document.getElementById("get").innerHTML = ("You were born on a 'Tuesday' and your Akan name is KWABENA. 'Tuesday's child is full of grace,'")
 }
 if(type=="male" && output==3){
-    document.getElementById("get").innerHTML = ("You were born on a 'Wednesday' and your Akan name is AKUA. 'Wednesday's child is full of courage,'")
+    document.getElementById("get").innerHTML = ("You were born on a 'Wednesday' and your Akan name is KWAKU. 'Wednesday's child is full of courage,'")
 }
 if(type=="male" && output==4){
-    document.getElementById("get").innerHTML = ("You were born on a 'Thursday' and your Akan name is YAA. 'Thursday's child has far to go.'")
+    document.getElementById("get").innerHTML = ("You were born on a 'Thursday' and your Akan name is YAW. 'Thursday's child has far to go.'")
 }
 if(type=="male" && output==5){
-    document.getElementById("get").innerHTML = ("You were born on a 'Friday' and your Akan name is AFUA. 'Friday's child is loving and giving,'")
+    document.getElementById("get").innerHTML = ("You were born on a 'Friday' and your Akan name is KOFI. 'Friday's child is loving and giving,'")
 }
 if(type=="male" && output==6){
-    document.getElementById("get").innerHTML = ("You were born on a 'Saturday' and your Akan name is AMA. 'Saturday's child works hard for a living,'")
+    document.getElementById("get").innerHTML = ("You were born on a 'Saturday' and your Akan name is KWAME. 'Saturday's child works hard for a living,'")
 }
 if(type=="male" && output==7){
-    document.getElementById("get").innerHTML = ("You were born on a 'Sunday' and your Akan name is AKOSUA. 'But the child born on the Sunday, is fair and wise and good in every way.'")
+    document.getElementById("get").innerHTML = ("You were born on a 'Sunday' and your Akan name is KWASI. 'But the child born on the Sunday, is fair and wise and good in every way.'")
 }
 else if(type=="female" && output==1){
-    document.getElementById("get").innerHTML = ("You were born on a Monday and your Akan name is KWADWO. 'Monday's child is fair of face,'"); 
+    document.getElementById("get").innerHTML = ("You were born on a Monday and your Akan name is ADWOA. 'Monday's child is fair of face,'"); 
  }
  else if(type=="female" && output==2){
-     document.getElementById("get").innerHTML = ("You were born on a 'Tuesday' and your Akan name is KWABENA. 'Tuesday's child is full of grace,'")
+     document.getElementById("get").innerHTML = ("You were born on a 'Tuesday' and your Akan name is ABENAA. 'Tuesday's child is full of grace,'")
  }
  else if(type=="female" && output==3){
-     document.getElementById("get").innerHTML = ("You were born on a 'Wednesday' and your Akan name is KWAKU. 'Wednesday's child is full of courage,'")
+     document.getElementById("get").innerHTML = ("You were born on a 'Wednesday' and your Akan name is AKUA. 'Wednesday's child is full of courage,'")
  }
  else if(type=="female" && output==4){
-     document.getElementById("get").innerHTML = ("You were born on a 'Thursday' and your Akan name is YAW. 'Thursday's child has far to go.'")
+     document.getElementById("get").innerHTML = ("You were born on a 'Thursday' and your Akan name is YAA. 'Thursday's child has far to go.'")
  }
 else if(type=="female" && output==5){
-     document.getElementById("get").innerHTML = ("You were born on a 'Friday' and your Akan name is KOFI. 'Friday's child is loving and giving,'")
+     document.getElementById("get").innerHTML = ("You were born on a 'Friday' and your Akan name is AFUA. 'Friday's child is loving and giving,'")
  }
  else  if(type=="female" && output==6){
-     document.getElementById("get").innerHTML = ("You were born on a 'Saturday' and your Akan name is KWAME. 'Saturday's child works hard for a living,'")
+     document.getElementById("get").innerHTML = ("You were born on a 'Saturday' and your Akan name is AMA. 'Saturday's child works hard for a living,'")
  }
  else if(type=="female" && output==7){
-     document.getElementById("get").innerHTML = ("You were born on a 'Sunday' and your Akan name is KWASI. 'But the child born on the Sunday, is fair and wise and good in every way.'")
+     document.getElementById("get").innerHTML = ("You were born on a 'Sunday' and your Akan name is AKOSUA. 'But the child born on the Sunday, is fair and wise and good in every way.'")
  }
 }
 
