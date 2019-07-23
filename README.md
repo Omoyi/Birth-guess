@@ -57,4 +57,4 @@ SOFTWARE.
 
 ### Link to see site on Github pages
 
-https://omoyi.github.io/Birth-guess/  
+https://omoyi.github.io/Birth-guess/
