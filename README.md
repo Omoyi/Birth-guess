@@ -25,7 +25,7 @@ If you wish to do an app like this one. you are required to have:
 
  -Ubuntu setup(operating system).
  -Google chrome.
- -and Visual Studio code, Atom, ..
+ -and Visual Studio code, Atom, or others..
 
 ### Contact information
 
@@ -57,4 +57,4 @@ SOFTWARE.
 
 ### Link to see site on Github pages
 
-https://omoyi.github.io/Birth-guess/
+https://omoyi.github.io/Birth-guess/  
