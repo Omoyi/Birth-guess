@@ -63,7 +63,7 @@ else if(type=="female" && output==5){
      document.getElementById("get").innerHTML = ("You were born on a 'Saturday' and your Akan name is AMA. 'Saturday's child works hard for a living,'")
  }
  else if(type=="female" && output==7){
-     document.getElementById("get").innerHTML = ("You were born on a 'Sunday' and your Akan name is AKOSUA. 'But the child born on the Sunday, is fair and wise and good in every way.'")
+     document.getElementById("get").innerHTML = ("You were born on a 'Sunday' and your Akan name is AKOSUA. 'But the child born on the Sunday, is fair and wise and good in every way.'");
  }
 }
 
