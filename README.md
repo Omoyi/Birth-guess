@@ -19,6 +19,13 @@ Read in the decscription part the meaning of Akan name.
  
  Bootstrap, html, css and javascript.
 
+### Setup/installation requirements
+
+If you wish to do an app like this one. you are required to have:
+
+ -Ubuntu setup(operating system).
+ -Google chrome.
+ -and Visual Studio code, Atom, ..
 
 ### Contact information
 
