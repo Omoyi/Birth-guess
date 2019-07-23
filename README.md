@@ -49,4 +49,4 @@ SOFTWARE.
 
 ### Link to see site on Github pages
 
-https://omoyi.github.io/BIRTH_GUESS/
+https://omoyi.github.io/Birth-guess/
